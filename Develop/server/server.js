@@ -7,7 +7,17 @@ const app = express();
 
 app.use(express.static('public'));
 
+// Middleware for parsing JSON and urlencoded form data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use('/api', api);
+
 // Get Route for homepage
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'));
+})
+
+//Get Route for notes.HTML
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'));
 })
