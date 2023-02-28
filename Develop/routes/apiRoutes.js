@@ -1,0 +1,1 @@
+// this is wher you will write functions for api calls stored notes (localy) 
