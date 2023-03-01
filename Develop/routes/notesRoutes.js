@@ -1,4 +1,9 @@
-// router.get functions (res, req)) router granbbing whatever it is from notes.html
+const express = require('express');
+const path = require('path');
+const router = express.Router();
 
-// const fro pathth and router.get function
+router.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/notes.html'));
+});
 
+module.exports = router;

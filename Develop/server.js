@@ -1,7 +1,7 @@
 const express = require('express');
-const path = require('path');
-const api = require('./routes/index.js');
-
+// const path = require('path');
+const api = require('./routes/apiRoutes.js');
+const notes = require('./routes/notesRoutes.js');
 
 
 //setting up server
@@ -15,16 +15,7 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
-
-// Get Route for homepage
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/index.html'));
-})
-
-//Get Route for notes.HTML page
-app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/notes.html'));
-})
+app.use('/notes', notes);
 
 app.listen(PORT, () =>
     console.log(`App Listening at http://localhost:${PORT}`));
