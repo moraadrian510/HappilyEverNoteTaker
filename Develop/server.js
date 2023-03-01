@@ -4,6 +4,8 @@ const api = require('./routes/apiRoutes.js');
 const notes = require('./routes/notesRoutes.js');
 
 
+
+
 //setting up server
 const PORT = process.env.PORT || 3001;
 const app = express();
