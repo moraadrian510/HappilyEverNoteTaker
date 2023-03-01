@@ -1,7 +1,7 @@
 const express = require('express');
 // const path = require('path');
 const api = require('./routes/apiRoutes.js');
-const notes = require('./routes/notesRoutes.js');
+const notes = require('./routes/htmlRoutes.js');
 
 
 
