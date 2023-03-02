@@ -17,7 +17,7 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
-app.use('/notes', notes);
+app.use(notes);
 
 app.listen(PORT, () =>
     console.log(`App Listening at http://localhost:${PORT}`));
