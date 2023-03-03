@@ -7,11 +7,11 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
 class Store {
     read() {
-        return readFileAsync('db/db.json', 'utf8');
+        return readFileAsync('./db/db.json', 'utf8');
     }
 
     write(note) {
-        return writeFileAsync('db/db.json', JSON.stringify(note));
+        return writeFileAsync('./db/db.json', JSON.stringify(note));
     }
 
     async getNotes() {
@@ -28,6 +28,7 @@ class Store {
     async removeNote(id) {
         const notes = await this.getNotes();
         const filteredNotes = notes.filter(note => note.id !== id);
+        console.log(filteredNotes);
         await this.write(filteredNotes);
     }
 }
