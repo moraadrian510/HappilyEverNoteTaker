@@ -21,7 +21,7 @@
 The *HappilyEverNoteTaker* is a very simple, but effective way to write down quick notes wether you use it in class or work settings. 
 
 ![](images/img-2.png)
-The *HappilyEverNoteTaker* lets you see a list of recent notes in the same page as you write your notes. To delete any not just click the garbage icon next to the note you wish to delete.
+The *HappilyEverNoteTaker* lets you see a list of recent notes in the same page as you write your notes. To delete any noe just click the garbage icon next to the note you wish to delete.
 
 
 
