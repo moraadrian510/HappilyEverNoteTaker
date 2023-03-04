@@ -75,8 +75,6 @@ If you would like to contribute or have any questions , please contact me at:
 --- 
  Thank You for your feedback!!
 
-  <img src="images/Screenshot 2023-03-03 at 2.21.48 PM.png"  width="300" height="100"> 
+  <img src="images/Screenshot 2023-03-03 at 2.21.48 PM.png"  width="300" height="100" style="border-radius: 50px"> 
 
-  <a href="images/javascript.png/">
-    <img src="images/javascript.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
-</a>
+  
