@@ -1,4 +1,4 @@
-  <a href="images/javascript.png/">
+  <a href="##contact">
     <img src="images/HappilyEverNoteTaker-logos_black.png" alt="Aimeos logo" title="Aimeos" align="right" height="300" width="300"/>
 </a>
 
