@@ -59,7 +59,7 @@ With *HappilyEverNoteTaker*,
 If you would like to contribute or have any questions , please contact me at:
 
 
-<img src="images/icloud.jpg"  width="20" height="20"> [Email](moraadrian510@icloud.com)
+<img src="images/icloud.jpg"  width="20" height="20"> [Email](mailto:moraadrian510@icloud.com)
 
 <img src="images/GitHub.png"  width="20" height="20"> [GitHub](https://github.com/moraadrian510)
 
