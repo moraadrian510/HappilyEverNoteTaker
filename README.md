@@ -1,3 +1,7 @@
+  <a href="images/javascript.png/">
+    <img src="images/HappilyEverNoteTaker-logos_black.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+</a>
+
 # <span style="color:yellow"> *HappilyEverNoteTaker* </span>
 
   
