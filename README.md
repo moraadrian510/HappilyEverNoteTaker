@@ -1,4 +1,4 @@
-  <a href="##contact">
+  <a href="https://mighty-sierra-88367.herokuapp.com/">
     <img src="images/HappilyEverNoteTaker-logos_black.png" alt="Aimeos logo" title="Aimeos" align="right" height="300" width="300"/>
 </a>
 
