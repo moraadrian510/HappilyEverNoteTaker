@@ -20,7 +20,7 @@
 
 ![](images/img-1.png)
 
- **[Try It Out!!](https://mighty-sierra-88367.herokuapp.com/)**
+ <ins>**[Try It Out!!](https://mighty-sierra-88367.herokuapp.com/)**</ins>
 
 The *HappilyEverNoteTaker* is a very simple, but effective way to write down quick notes wether you use it in class or work settings. 
 
