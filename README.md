@@ -1,5 +1,5 @@
   <a href="images/javascript.png/">
-    <img src="images/HappilyEverNoteTaker-logos_black.png" alt="Aimeos logo" title="Aimeos" align="right" height="200" width="200"/>
+    <img src="images/HappilyEverNoteTaker-logos_black.png" alt="Aimeos logo" title="Aimeos" align="right" height="300" width="300"/>
 </a>
 
 # <span style="color:yellow"> *HappilyEverNoteTaker* </span>
